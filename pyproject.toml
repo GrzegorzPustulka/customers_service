@@ -7,6 +7,12 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
+fastapi = "^0.109.2"
+sqlalchemy = "^2.0.25"
+pydantic = "^2.6.1"
+admin_service = {git = "https://github.com/GrzegorzPustulka/admin_service.git"}
+setuptools = "^69.0.3"
+alembic = "^1.13.1"
 
 
 [build-system]
